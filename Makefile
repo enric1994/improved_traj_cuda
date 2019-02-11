@@ -20,7 +20,7 @@ LIBS := \
 CXXFLAGS = -pipe -D __STDC_CONSTANT_MACROS -D STD=std -Wall $(CXXFLAGS_$(BUILD)) -I.
 CXXFLAGS_debug := -ggdb
 CXXFLAGS_release := -O3 -DNDEBUG -ggdb
-LDFLAGS = -pipe -Wall $(LDFLAGS_$(BUILD))  -L/home/zhongwen/usr/local/cuda-6.5/lib64
+LDFLAGS = -pipe -Wall $(LDFLAGS_$(BUILD))  -L/usr/local/cuda-8.0/lib64
 LDFLAGS_debug := -ggdb
 LDFLAGS_release := -O3 -ggdb
 
