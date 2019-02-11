@@ -36,7 +36,7 @@ const float max_var = 50;
 const float max_dis = 20;
 
 
-int show_track = 0; // set show_track = 1, if you want to visualize the trajectories
+int show_track = 1; // set show_track = 1, if you want to visualize the trajectories
 int calcSize(int octave, int layer)
 {
     /* Wavelet size at first layer of first octave. */
